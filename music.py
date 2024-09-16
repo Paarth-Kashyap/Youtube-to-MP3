@@ -75,6 +75,8 @@ class Music:
             song_url=driver.current_url
             print(song_url)
             #url for mp3 converter
+            
+            #from here onwards need to find new link and href tags
             downloader="https://www.go-mp3.com/en20"    #does not work find new link
             #opens converter
             driver.get(downloader)
